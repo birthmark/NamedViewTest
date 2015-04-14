@@ -1,0 +1,20 @@
+//
+//  NamedView_Prefix.pch
+//  NamedViewTest
+//
+//  Created by XiaoG on 15-4-11.
+//  Copyright (c) 2015年 XiaoG. All rights reserved.
+//
+#import <Availability.h>
+
+#ifndef NamedViewTest_NamedView_Prefix_pch
+#define NamedViewTest_NamedView_Prefix_pch
+
+#ifdef DEBUG
+#define AUTO_VIEWBORDER //自动显示view的border开关
+#endif
+
+#import "UIView+Named.h"
+#import "UIView+RelativeLayout.h"
+
+#endif
